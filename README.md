@@ -19,3 +19,7 @@ Trackers on this list follow the certain criteria:
 7 - The tracker is public and free to use
 
 8 - Their site isn't sketchy
+
+-
+
+My personal favourite sites when it comes to torrenting are DHT crawlers. I recommend bitsearch.to and bt4g.com
