@@ -23,3 +23,5 @@ Trackers on this list follow the certain criteria:
 -
 
 My personal favourite sites when it comes to torrenting are DHT crawlers. I recommend bitsearch.to and bt4g.com
+
+My personal favourite client is PicoTorrent, second place would go to utorrent 2.2.1 (on Windows). I recommend them both.
