@@ -1,4 +1,4 @@
-Description: This is a list of active, responsible, user- and privacy-respecting trackers that follow certain criteria I have stabilished.
+Description: This is a curated list of active, responsible, user- and privacy-respecting trackers that follow certain criteria I have stabilished.
 
 -
 
