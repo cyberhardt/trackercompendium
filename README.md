@@ -1,6 +1,8 @@
 Description: This is a curated list of active, responsible, user- and privacy-respecting trackers that follow certain criteria I have stabilished.
 
-You can use the .bat files to quickly add trackers to your torrents. There are 2 .bats: one with the compliant trackers, and another with all of them. In order to use it, you'll need Transmission CLI installed (https://github.com/transmission/transmission) - you **don't** need to install the GUI. You'll need to edit the path to include your user (either that, or use some other path of your choice). You can, of course, add or remove trackers from the bat, just make sure to add -a before each tracker you want to add, and -d before those you want to remove. The script works like that: it will add the specified trackers to all .torrent files inside the specified folder. I've also included 2 additional scripts, identifiable by the -remove in their filenames, which will remove **all** trackers before adding the new ones.
+-
+
+Regarding the Scripts folder: You can use the .bat files to quickly add trackers to your torrents. There are 2 .bats: one with the compliant trackers, and another with all of them. In order to use it, you'll need Transmission CLI installed (https://github.com/transmission/transmission) - you **don't** need to install the GUI. You'll need to edit the path to include your user (either that, or use some other path of your choice). You can, of course, add or remove trackers from the bat, just make sure to add -a before each tracker you want to add, and -d before those you want to remove. The script works like that: it will add the specified trackers to all .torrent files inside the specified folder. I've also included 2 additional scripts, identifiable by the -remove in their filenames, which will remove **all** trackers before adding the new ones.
 
 -
 
