@@ -8,8 +8,6 @@ Compliant list
 {
 udp://open.stealth.si:80/announce
 udp://tracker.torrent.eu.org:451/announce
-udp://tracker.openbittorrent.com:6969
-udp://tracker.opentrackr.org:1337/announce
 udp://tracker.cyberia.is:6969/announce
 udp://tracker-udp.gbitt.info:80/announce
 udp://tracker.leech.ie:1337/announce
@@ -19,8 +17,6 @@ http://tracker.gbitt.info:80/announce
 {
 udp://185.181.60.155:80/announce
 udp://89.234.156.205:451/announce
-udp://45.154.253.4:6969
-udp://93.158.213.92:1337/announce
 udp://2a0f:e586:f:f::81:6969/announce (ipv4: ?)
 udp://109.201.134.183:80/announce
 udp://135.181.197.114:1337/announce
@@ -37,6 +33,8 @@ udp://open.demonii.com:1337
 udp://open.tracker.cl:1337/announce
 udp://bt1.archive.org:6969/announce
 udp://bt2.archive.org:6969/announce
+udp://tracker.openbittorrent.com:6969
+udp://tracker.opentrackr.org:1337/announce
 https://tracker.bt4g.com:443/announce
 http://nyaa.tracker.wf:7777/announce
 http://sukebei.tracker.wf:8888/announce
@@ -47,6 +45,8 @@ udp://185.44.82.25:1337
 udp://152.231.114.207:1337/announce
 udp://207.241.226.111:6969/announce
 udp://207.241.231.226:6969/announce
+udp://45.154.253.4:6969
+udp://93.158.213.92:1337/announce
 https://2606:4700:3034::ac43:82d3:443/announce (ipv4: https://172.67.130.211:443/announce)
 http://23.137.248.119:7777/announce
 http://163.172.150.238:8888/announce
@@ -57,21 +57,40 @@ Don't care list
 {
 udp://open.stealth.si:80/announce
 udp://tracker.torrent.eu.org:451/announce
-udp://tracker.openbittorrent.com:6969
-udp://tracker.opentrackr.org:1337/announce
 udp://tracker.cyberia.is:6969/announce
-http://tracker.gbitt.info:80/announce
-https://tracker.gbitt.info:443/announce
 udp://tracker-udp.gbitt.info:80/announce
 udp://tracker.leech.ie:1337/announce
-http://nyaa.tracker.wf:7777/announce
-http://sukebei.tracker.wf:8888/announce
 udp://tracker.bitsearch.to:1337/announce
 udp://open.demonii.com:1337
 udp://open.tracker.cl:1337/announce
 udp://bt1.archive.org:6969/announce
 udp://bt2.archive.org:6969/announce
+udp://tracker.openbittorrent.com:6969
+udp://tracker.opentrackr.org:1337/announce
+https://tracker.gbitt.info:443/announce
 https://tracker.bt4g.com:443/announce
+http://tracker.gbitt.info:80/announce
+http://nyaa.tracker.wf:7777/announce
+http://sukebei.tracker.wf:8888/announce
+}
+{
+udp://185.181.60.155:80/announce
+udp://89.234.156.205:451/announce
+udp://2a0f:e586:f:f::81:6969/announce (ipv4: ?)
+udp://109.201.134.183:80/announce
+udp://135.181.197.114:1337/announce
+udp://178.170.48.154:1337/announce
+udp://185.44.82.25:1337
+udp://152.231.114.207:1337/announce
+udp://207.241.226.111:6969/announce
+udp://207.241.231.226:6969/announce
+udp://45.154.253.4:6969
+udp://93.158.213.92:1337/announce
+https://2606:4700:e4::ac40:a60d:443/announce (ipv4: https://172.64.166.13:443/announce)
+https://2606:4700:3034::ac43:82d3:443/announce (ipv4: https://172.67.130.211:443/announce)
+http://2606:4700:e4::ac40:a60d:443:80/announce (ipv4: http://172.64.166.13:80/announce)
+http://23.137.248.119:7777/announce
+http://163.172.150.238:8888/announce
 }
 
 -
@@ -88,20 +107,6 @@ udp://open.stealth.si:80/announce
 torrent.eu.org
 {
 udp://tracker.torrent.eu.org:451/announce
-}
-
--
-
-openbittorrent.com
-{
-udp://tracker.openbittorrent.com:6969
-}
-
--
-
-opentrackr.org
-{
-udp://tracker.opentrackr.org:1337/announce
 }
 
 -
@@ -130,6 +135,20 @@ udp://tracker.leech.ie:1337/announce
 -
 
 Non-Compliant - Trackers that don't fulfill all criteria, and which ones they failed
+
+openbittorrent.com (4,5)
+{
+udp://tracker.openbittorrent.com:6969
+}
+
+-
+
+opentrackr.org (4,5)
+{
+udp://tracker.opentrackr.org:1337/announce
+}
+
+-
 
 nyaa.si (4,5)
 {
@@ -168,7 +187,7 @@ udp://bt2.archive.org:6969/announce
 
 -
 
-bt4g.com (site doesn't even mention a tracker)
+bt4g.com (site doesn't even mention a tracker. it is here because of its usefulness)
 {
 https://tracker.bt4g.com:443/announce
 }
