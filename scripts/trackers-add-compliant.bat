@@ -2,10 +2,6 @@ for %v in ("C:\torrents\*.torrent") do "C:\Program Files\Transmission\transmissi
 
 for %v in ("C:\torrents\*.torrent") do "C:\Program Files\Transmission\transmission-edit" -a udp://tracker.torrent.eu.org:451/announce "%v"
 
-for %v in ("C:\torrents\*.torrent") do "C:\Program Files\Transmission\transmission-edit" -a udp://tracker.openbittorrent.com:6969 "%v"
-
-for %v in ("C:\torrents\*.torrent") do "C:\Program Files\Transmission\transmission-edit" -a udp://tracker.opentrackr.org:1337/announce "%v"
-
 for %v in ("C:\torrents\*.torrent") do "C:\Program Files\Transmission\transmission-edit" -a udp://tracker.cyberia.is:6969/announce "%v"
 
 for %v in ("C:\torrents\*.torrent") do "C:\Program Files\Transmission\transmission-edit" -a http://tracker.gbitt.info:80/announce "%v"
