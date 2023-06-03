@@ -2,9 +2,9 @@ Description: This is a curated list of active, responsible, user- and privacy-re
 
 -
 
-The torrent-blacklist is basically a list of all trackers except those in the compendium. It will be used for the scripts.
+The torrent-blacklist is basically a list of all trackers except those in the compendium. It will be used for scripting purposes.
 
-Regarding the Scripts folder: You can use the .bat files to quickly add trackers to your torrents. There are 2 .bats: one with the compliant trackers, and another with all of them. In order to use it, you'll need Transmission CLI installed (https://github.com/transmission/transmission) - you **don't** need to install the GUI. By default, the path is C:\torrents, but you can change it to whatever you want. The script works like that: it will add the specified trackers to all .torrent files inside the specified folder. I've also included 2 additional scripts, identifiable by the -remove in their filenames, which will remove all trackers present in the tracker-blacklist before adding the new ones. Needles to mention, the scripts were made for Windows.
+Regarding the Scripts folder: You can use the .bat files to quickly add trackers to your torrents. There are 3 .bats: one with the compliant trackers, one with all of them, and a third one to remove the trackers present in the blacklist. In order to use it, you'll need Transmission CLI installed (https://github.com/transmission/transmission) - you **don't** need to install the GUI. By default, the path is C:\torrents - you technically can change it to whatever you want, but that would involve a tedious change in 300 lines. The script works like that: it will add (or remove) the specified trackers to all .torrent files inside the specified folder. Needles to mention, the scripts were made for Windows.
 
 -
 
@@ -27,6 +27,8 @@ Trackers on this list follow the certain criteria:
 8 - Their site isn't sketchy
 
 -
+
+Most trackers were found on the following lists: https://github.com/ngosang/trackerslist and https://github.com/XIU2/TrackersListCollection.
 
 My favourite sites when it comes to torrenting are DHT crawlers. I recommend bitsearch.to and bt4g.com.
 
