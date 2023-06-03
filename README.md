@@ -1,5 +1,7 @@
 Description: This is a curated list of active, responsible, user- and privacy-respecting trackers that follow certain criteria I have stabilished.
 
+I felt I needed to do this after realizing that, on the lists I found and on the torrents I had, 80-90% of trackers didn't even work.
+
 -
 
 The torrent-blacklist is basically a list of all trackers except those in the compendium. It will be used for scripting purposes.
@@ -29,6 +31,8 @@ Trackers on this list follow the certain criteria:
 -
 
 Most trackers were found on the following lists: https://github.com/ngosang/trackerslist and https://github.com/XIU2/TrackersListCollection.
+
+This site also helped: http://torrenteditor.com/
 
 My favourite sites when it comes to torrenting are DHT crawlers. I recommend bitsearch.to and bt4g.com.
 
