@@ -4,7 +4,7 @@ I felt I needed to do this after realizing that, on the lists I found and on the
 
 -
 
-The torrent-blacklist is basically a list of all trackers except those in the tracker list proper. It is used as a source for the script.
+The tracker-blacklist is basically a list of all trackers except those in the whitelist (duh). It is used as a source for the script.
 
 Regarding the scripts: You can use the .bat files to quickly add trackers to your torrents. There are 3 .bats: one with the compliant trackers, one with all of them, and a third one to remove the trackers present in the blacklist. In order to use it, you'll need Transmission CLI installed (https://github.com/transmission/transmission) - you **don't** need to install the GUI. By default, the path is C:\torrents - you technically can change it to whatever you want, but that would involve a tedious change in 300 lines. The script works like that: it will add (or remove) the specified trackers to all .torrent files inside the specified folder. Needless to mention, the scripts were made for Windows.
 
