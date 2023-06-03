@@ -129,7 +129,18 @@ udp://9.rarbg.com:2710/announce
 udp://tracker.leechers-paradise.org:6969/announce
 udp://tracker.istole.it:80/announce
 udp://tracker.publicbt.com:80/announce
+udp://bubu.mapfactor.com:6969/announce
+udp://app.icon256.com:8000/announce
+udp://tracker.internetwarriors.net:1337/announce
+udp://ipv4.tracker.harry.lu:80/announce
 udp://open.tracker.cl:1337/announce
+udp://vibe.sleepyinternetfun.xyz:1738/announce
+udp://pow7.com:80/announce
+udp://tracker.blacksparrowmedia.net:6969/announce
+udp://tracker.army:6969/announce
+udp://www.torrent.eu.org:451/announce
+udp://tracker.breizh.pm:6969/announce
+udp://ipv6.tracker.harry.lu:80/announce
 https://tracker.imgoingto.icu:443/announce
 https://tracker.loligirl.cn:443/announce
 https://tracker.lilithraws.org:443/announce
@@ -195,6 +206,8 @@ http://bigfoot1942.sektori.org:6969/announce
 http://announce.torrentsmd.com:6969/announce
 http://tracker.publicbt.com/announce
 http://tracker.tfile.me/announce
+http://ipv4.tracker.harry.lu:80/announce
+http://ipv6.tracker.harry.lu:80/announce
 wss://tracker.openwebtorrent.com:443/announce
 wss://tracker.btorrent.xyz
 wss://tracker.files.fm:7073/announce
