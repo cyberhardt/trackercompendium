@@ -1,5 +1,7 @@
 First some easy to paste lists, then a list of sites, their trackers and whether or not they are compliant to the stabilished criteria (and which ones do they fail).
 
+After every list, I've included an IP address list, in the same order as the regular url ones.
+
 -
 
 Compliant list
@@ -9,26 +11,45 @@ udp://tracker.torrent.eu.org:451/announce
 udp://tracker.openbittorrent.com:6969
 udp://tracker.opentrackr.org:1337/announce
 udp://tracker.cyberia.is:6969/announce
-http://tracker.gbitt.info:80/announce
 udp://tracker-udp.gbitt.info:80/announce
-https://tracker.gbitt.info:443/announce
 udp://tracker.leech.ie:1337/announce
+https://tracker.gbitt.info:443/announce
+http://tracker.gbitt.info:80/announce
 }
-
+{
+udp://185.181.60.155:80/announce
+udp://89.234.156.205:451/announce
+udp://45.154.253.4:6969
+udp://93.158.213.92:1337/announce
+udp://2a0f:e586:f:f::81:6969/announce (ipv4: ?)
+udp://109.201.134.183:80/announce
+udp://135.181.197.114:1337/announce
+https://2606:4700:e4::ac40:a60d:443/announce (ipv4: https://172.64.166.13:443/announce)
+http://2606:4700:e4::ac40:a60d:443:80/announce (ipv4: http://172.64.166.13:80/announce)
+}
 -
 
 Non-Compliant list
 {
-http://nyaa.tracker.wf:7777/announce
-http://sukebei.tracker.wf:8888/announce
 udp://tracker.bitsearch.to:1337/announce
 udp://open.demonii.com:1337
 udp://open.tracker.cl:1337/announce
 udp://bt1.archive.org:6969/announce
 udp://bt2.archive.org:6969/announce
 https://tracker.bt4g.com:443/announce
+http://nyaa.tracker.wf:7777/announce
+http://sukebei.tracker.wf:8888/announce
 }
-
+{
+udp://:1337/announce
+udp://:1337
+udp://:1337/announce
+udp://:6969/announce
+udp://:6969/announce
+https://:443/announce
+http://:7777/announce
+http://:8888/announce
+}
 -
 
 Don't care list
