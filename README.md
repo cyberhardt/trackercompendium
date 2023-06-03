@@ -4,7 +4,7 @@ Description: This is a curated list of active, responsible, user- and privacy-re
 
 The torrent-blacklist is basically a list of all trackers except those in the compendium. It will be used for the scripts.
 
-Regarding the Scripts folder: You can use the .bat files to quickly add trackers to your torrents. There are 2 .bats: one with the compliant trackers, and another with all of them. In order to use it, you'll need Transmission CLI installed (https://github.com/transmission/transmission) - you **don't** need to install the GUI. By default, the path is C:\torrents, but you can change it to whatever you want. The script works like that: it will add the specified trackers to all .torrent files inside the specified folder. I've also included 2 additional scripts, identifiable by the -remove in their filenames, which will remove trackers from the tracker-blacklist before adding the new ones. Needles to mention, the script was made for Windows.
+Regarding the Scripts folder: You can use the .bat files to quickly add trackers to your torrents. There are 2 .bats: one with the compliant trackers, and another with all of them. In order to use it, you'll need Transmission CLI installed (https://github.com/transmission/transmission) - you **don't** need to install the GUI. By default, the path is C:\torrents, but you can change it to whatever you want. The script works like that: it will add the specified trackers to all .torrent files inside the specified folder. I've also included 2 additional scripts, identifiable by the -remove in their filenames, which will remove trackers from the tracker-blacklist before adding the new ones. Needles to mention, the scripts were made for Windows.
 
 -
 
