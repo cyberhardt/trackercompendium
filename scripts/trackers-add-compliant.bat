@@ -1,1 +1,17 @@
-for /r %%v in ("C:\Users\-\Downloads\torrents\*.torrent") do "C:\Program Files\Transmission\transmission-edit" -a udp://open.stealth.si:80/announce -a udp://tracker.torrent.eu.org:451/announce -a udp://tracker.openbittorrent.com:6969 -a udp://tracker.opentrackr.org:1337/announce -a udp://tracker.cyberia.is:6969/announce -a http://tracker.gbitt.info:80/announce -a udp://tracker-udp.gbitt.info:80/announce -a https://tracker.gbitt.info:443/announce -a udp://tracker.leech.ie:1337/announce "%%v"
+for %v in ("C:\torrents\*.torrent") do "C:\Program Files\Transmission\transmission-edit" -a udp://open.stealth.si:80/announce "%v"
+
+for %v in ("C:\torrents\*.torrent") do "C:\Program Files\Transmission\transmission-edit" -a udp://tracker.torrent.eu.org:451/announce "%v"
+
+for %v in ("C:\torrents\*.torrent") do "C:\Program Files\Transmission\transmission-edit" -a udp://tracker.openbittorrent.com:6969 "%v"
+
+for %v in ("C:\torrents\*.torrent") do "C:\Program Files\Transmission\transmission-edit" -a udp://tracker.opentrackr.org:1337/announce "%v"
+
+for %v in ("C:\torrents\*.torrent") do "C:\Program Files\Transmission\transmission-edit" -a udp://tracker.cyberia.is:6969/announce "%v"
+
+for %v in ("C:\torrents\*.torrent") do "C:\Program Files\Transmission\transmission-edit" -a http://tracker.gbitt.info:80/announce "%v"
+
+for %v in ("C:\torrents\*.torrent") do "C:\Program Files\Transmission\transmission-edit" -a udp://tracker-udp.gbitt.info:80/announce "%v"
+
+for %v in ("C:\torrents\*.torrent") do "C:\Program Files\Transmission\transmission-edit" -a https://tracker.gbitt.info:443/announce "%v"
+
+for %v in ("C:\torrents\*.torrent") do "C:\Program Files\Transmission\transmission-edit" -a udp://tracker.leech.ie:1337/announce "%v"
