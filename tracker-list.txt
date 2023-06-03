@@ -27,6 +27,7 @@ udp://135.181.197.114:1337/announce
 https://2606:4700:e4::ac40:a60d:443/announce (ipv4: https://172.64.166.13:443/announce)
 http://2606:4700:e4::ac40:a60d:443:80/announce (ipv4: http://172.64.166.13:80/announce)
 }
+
 -
 
 Non-Compliant list
@@ -41,14 +42,14 @@ http://nyaa.tracker.wf:7777/announce
 http://sukebei.tracker.wf:8888/announce
 }
 {
-udp://:1337/announce
-udp://:1337
-udp://:1337/announce
-udp://:6969/announce
-udp://:6969/announce
-https://:443/announce
-http://:7777/announce
-http://:8888/announce
+udp://178.170.48.154:1337/announce
+udp://185.44.82.25:1337
+udp://152.231.114.207:1337/announce
+udp://207.241.226.111:6969/announce
+udp://207.241.231.226:6969/announce
+https://2606:4700:3034::ac43:82d3:443/announce (ipv4: https://172.67.130.211:443/announce)
+http://23.137.248.119:7777/announce
+http://163.172.150.238:8888/announce
 }
 -
 
