@@ -26,6 +26,7 @@ udp://open.demonii.com:1337
 udp://open.tracker.cl:1337/announce
 udp://bt1.archive.org:6969/announce
 udp://bt2.archive.org:6969/announce
+https://tracker.bt4g.com:443/announce
 }
 
 -
@@ -48,6 +49,7 @@ udp://open.demonii.com:1337
 udp://open.tracker.cl:1337/announce
 udp://bt1.archive.org:6969/announce
 udp://bt2.archive.org:6969/announce
+https://tracker.bt4g.com:443/announce
 }
 
 -
@@ -140,4 +142,11 @@ archive.org (4,5)
 {
 udp://bt1.archive.org:6969/announce
 udp://bt2.archive.org:6969/announce
+}
+
+-
+
+bt4g.com (site doesn't even mention a tracker)
+{
+https://tracker.bt4g.com:443/announce
 }
