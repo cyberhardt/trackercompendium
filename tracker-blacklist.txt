@@ -140,6 +140,7 @@ udp://tracker.army:6969/announce
 udp://www.torrent.eu.org:451/announce
 udp://tracker.breizh.pm:6969/announce
 udp://ipv6.tracker.harry.lu:80/announce
+udp://tracker.0x7c0.com:6969/announce
 https://tracker.imgoingto.icu:443/announce
 https://tracker.loligirl.cn:443/announce
 https://tracker.lilithraws.org:443/announce
