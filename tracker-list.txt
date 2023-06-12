@@ -20,8 +20,8 @@ udp://89.234.156.205:451/announce
 udp://2a0f:e586:f:f::81:6969/announce (ipv4: ?)
 udp://109.201.134.183:80/announce
 udp://135.181.197.114:1337/announce
-https://2606:4700:e4::ac40:a60d:443/announce (ipv4: https://172.64.166.13:443/announce)
-http://2606:4700:e4::ac40:a60d:443:80/announce (ipv4: http://172.64.166.13:80/announce)
+https://2606:4700:e4::ac40:a60d:443/announce (cloudflared)
+http://2606:4700:e4::ac40:a60d:443:80/announce (cloudflared)
 }
 
 -
@@ -47,7 +47,7 @@ udp://207.241.226.111:6969/announce
 udp://207.241.231.226:6969/announce
 udp://45.154.253.4:6969
 udp://93.158.213.92:1337/announce
-https://2606:4700:3034::ac43:82d3:443/announce (ipv4: https://172.67.130.211:443/announce)
+https://2606:4700:3034::ac43:82d3:443/announce (cloudflared)
 http://23.137.248.119:7777/announce
 http://163.172.150.238:8888/announce
 }
@@ -86,9 +86,9 @@ udp://207.241.226.111:6969/announce
 udp://207.241.231.226:6969/announce
 udp://45.154.253.4:6969
 udp://93.158.213.92:1337/announce
-https://2606:4700:e4::ac40:a60d:443/announce (ipv4: https://172.64.166.13:443/announce)
-https://2606:4700:3034::ac43:82d3:443/announce (ipv4: https://172.67.130.211:443/announce)
-http://2606:4700:e4::ac40:a60d:443:80/announce (ipv4: http://172.64.166.13:80/announce)
+https://2606:4700:e4::ac40:a60d:443/announce (cloudflared)
+https://2606:4700:3034::ac43:82d3:443/announce (cloudflared)
+http://2606:4700:e4::ac40:a60d:443:80/announce (cloudflared)
 http://23.137.248.119:7777/announce
 http://163.172.150.238:8888/announce
 }
