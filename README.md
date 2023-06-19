@@ -2,6 +2,9 @@ Description: This is a curated list of active, responsible, user- and privacy-re
 
 I felt I needed to do this after realizing that, on the lists I found and on the torrents I had, 80-90% of trackers didn't even work.
 
+inb4: I swear I tried everything I could to get those scripts to work, with no avail. I'll let them there to see if someone can fix them.
+-
+
 -
 
 The tracker-blacklist is basically a list of all trackers except those in the whitelist (duh). It is used as a source for the script. Please open an issue or pull request in case I missed any.
