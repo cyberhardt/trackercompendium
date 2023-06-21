@@ -2,7 +2,7 @@ Description: This is a curated list of active, responsible, user- and privacy-re
 
 I felt I needed to do this after realizing that, on the lists I found and on the torrents I had, 80-90% of trackers didn't even work.
 
-inb4: I swear I tried everything I could to get those scripts to work, with no avail. I'll let them there to see if someone can fix them.
+ps: I swear I tried everything I could to get those scripts to work, with no avail. I'll let them there to see if someone can fix them.
 -
 
 -
