@@ -408,6 +408,8 @@ for %v in ("C:\torrents\*.torrent") do "C:\Program Files\Transmission\transmissi
 &
 for %v in ("C:\torrents\*.torrent") do "C:\Program Files\Transmission\transmission-edit" -d http://ipv6.tracker.harry.lu:80/announce "%v"
 &
+for %v in ("C:\torrents\*.torrent") do "C:\Program Files\Transmission\transmission-edit" -d http://open.nyaatorrents.info:6544/announce "%v"
+&
 for %v in ("C:\torrents\*.torrent") do "C:\Program Files\Transmission\transmission-edit" -d wss://tracker.openwebtorrent.com:443/announce "%v"
 &
 for %v in ("C:\torrents\*.torrent") do "C:\Program Files\Transmission\transmission-edit" -d wss://tracker.btorrent.xyz "%v"
