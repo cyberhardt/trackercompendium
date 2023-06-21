@@ -142,8 +142,6 @@ udp://tracker.breizh.pm:6969/announce
 udp://ipv6.tracker.harry.lu:80/announce
 udp://tracker.0x7c0.com:6969/announce
 udp://tracker.zer0day.to:1337/announce
-http://mgtracker.org:6969/announce
-ttp://tracker.baka-sub.cf/announce
 https://tracker.imgoingto.icu:443/announce
 https://tracker.loligirl.cn:443/announce
 https://tracker.lilithraws.org:443/announce
@@ -212,6 +210,8 @@ http://tracker.tfile.me/announce
 http://ipv4.tracker.harry.lu:80/announce
 http://ipv6.tracker.harry.lu:80/announce
 http://open.nyaatorrents.info:6544/announce
+http://mgtracker.org:6969/announce
+http://tracker.baka-sub.cf/announce
 wss://tracker.openwebtorrent.com:443/announce
 wss://tracker.btorrent.xyz
 wss://tracker.files.fm:7073/announce
