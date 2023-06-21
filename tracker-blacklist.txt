@@ -208,6 +208,7 @@ http://tracker.publicbt.com/announce
 http://tracker.tfile.me/announce
 http://ipv4.tracker.harry.lu:80/announce
 http://ipv6.tracker.harry.lu:80/announce
+http://open.nyaatorrents.info:6544/announce
 wss://tracker.openwebtorrent.com:443/announce
 wss://tracker.btorrent.xyz
 wss://tracker.files.fm:7073/announce
