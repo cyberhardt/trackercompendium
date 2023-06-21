@@ -274,6 +274,8 @@ for %v in ("C:\torrents\*.torrent") do "C:\Program Files\Transmission\transmissi
 &
 for %v in ("C:\torrents\*.torrent") do "C:\Program Files\Transmission\transmission-edit" -d udp://tracker.0x7c0.com:6969/announce "%v"
 &
+for %v in ("C:\torrents\*.torrent") do "C:\Program Files\Transmission\transmission-edit" -d udp://tracker.zer0day.to:1337/announce "%v"
+&
 for %v in ("C:\torrents\*.torrent") do "C:\Program Files\Transmission\transmission-edit" -d https://tracker.imgoingto.icu:443/announce "%v"
 &
 for %v in ("C:\torrents\*.torrent") do "C:\Program Files\Transmission\transmission-edit" -d https://tracker.loligirl.cn:443/announce "%v"
@@ -409,6 +411,10 @@ for %v in ("C:\torrents\*.torrent") do "C:\Program Files\Transmission\transmissi
 for %v in ("C:\torrents\*.torrent") do "C:\Program Files\Transmission\transmission-edit" -d http://ipv6.tracker.harry.lu:80/announce "%v"
 &
 for %v in ("C:\torrents\*.torrent") do "C:\Program Files\Transmission\transmission-edit" -d http://open.nyaatorrents.info:6544/announce "%v"
+&
+for %v in ("C:\torrents\*.torrent") do "C:\Program Files\Transmission\transmission-edit" -d http://mgtracker.org:6969/announce "%v"
+&
+for %v in ("C:\torrents\*.torrent") do "C:\Program Files\Transmission\transmission-edit" -d http://tracker.baka-sub.cf/announce "%v"
 &
 for %v in ("C:\torrents\*.torrent") do "C:\Program Files\Transmission\transmission-edit" -d wss://tracker.openwebtorrent.com:443/announce "%v"
 &
